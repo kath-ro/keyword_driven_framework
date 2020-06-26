@@ -35,7 +35,7 @@ def read_ini_file_option(ini_file_path,section_name,option_name):#读取section�
 
 
 if __name__ == "__main__":
-    ini_file_path = r"D:\test\test_data_driven_framework0608\Config\PageElementLocator.ini"
+    ini_file_path = r"D:\test\_driven_framework\Config\PageElementLocator.ini"
     print(read_ini_file_all_sections(ini_file_path))
     print(read_ini_file_sections_all_options(ini_file_path,'126mail_login'))
     print(read_ini_file_option(ini_file_path,'126mail_login','loginpage.loginlink'))
