@@ -3,7 +3,7 @@
 import logging.config
 import logging
 
-logging.config.fileConfig(r"D:\test\test_keyword_driven_framework0618\Config\Logger.conf")
+logging.config.fileConfig(r"D:\test\keyword_driven_framework\Config\Logger.conf")
 logger = logging.getLogger("example01")
 
 def debug(message):#打印debug级别的日志方法
